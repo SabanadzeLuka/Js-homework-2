@@ -4,3 +4,28 @@
     width: 420px;
     height: 450px;
 }
+.card_title h3{
+    font-weight: bold;
+}
+.card_information p{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.card_information p i{
+    padding-right: 10px;
+}
+.card_information p span{
+    padding-left: 15px;
+}
+.glass{
+    width: 200px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+.text-end p{
+    background-color: #F5C518;
+}
