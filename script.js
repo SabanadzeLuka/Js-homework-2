@@ -7,7 +7,7 @@ for (let i = 0; i < masivi.length; i++) {
 // ***** N2 *****
 function display(x, secondfunc) {
     let message = secondfunc(x)
-    document.write(message);
+    alert(message);
 }
 function shefasebisfunc(price) {
     if (price > 50)
